@@ -74,7 +74,7 @@ mdns = true
 # Multiple public IP addresses can be specified as a comma separated list
 # if the sfu is deployed in a DMZ between two 1-1 NAT for internal and
 # external users.
-nat1to1 = ["127.0.0.1"]
+nat1to1 = ["68.183.230.61"]
 icelite = true
 
 [webrtc.timeouts]
@@ -87,7 +87,7 @@ keepalive = 2
 
 [turn]
 # Enables embeded turn server
-enabled = false
+enabled = true
 # Sets the realm for turn server
 realm = "ion"
 # The address the TURN server will listen on.
